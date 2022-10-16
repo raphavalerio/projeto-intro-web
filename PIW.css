@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#imagens{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#rodape{
+    width: 100%;
+    height: 2vh;
+    font-size: 10px;
+}
+
+#imgRodaPe{
+    width: 25px;
+    height: 25px;
+
+}
+
+#nomrRodaPe{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 1px; */
+}
+
+header{
+    background-color: rgb(184, 215, 58);
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+}
+
+#botao{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 10px;
+    background-color: rgb(100, 99, 99);
+}
+
+
+#divEstadios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vh 10vw;
+}
+
+#estadio1{
+    display: flex;
+    flex-direction: row;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(3, 42, 93);
+    color: rgb(77, 76, 76);
+    
+}
+#estadio2{
+    display: flex;
+    flex-direction: row-reverse;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(3, 42, 93);
+    font-size: 22px;
+    color: rgb(77, 76, 76);
+
+
+}
+#estadio3{
+    display: flex;
+    flex-direction: row;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(3, 42, 93);
+    font-size: 22px;
+    color: rgb(77, 76, 76);
+
+
+}
+
+#estadio4{
+    display: flex;
+    flex-direction: row-reverse;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(3, 42, 93);
+    font-size: 22px;
+    color: rgb(77, 76, 76);
+
+
+}
+
+#estadio5{
+    display: flex;
+    flex-direction: row;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(3, 42, 93);
+    font-size: 22px;
+    color: rgb(77, 76, 76);
+
+
+}
+
+#estadio6{
+    display: flex;
+    flex-direction: row-reverse;
+    border-style: outset;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(3, 42, 93);
+    font-size: 22px;
+    color: rgb(77, 76, 76);
+
+
+}
+
+#listaUl{
+    list-style:none;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vh 25vw;
+    width: 10vw;
+    background-color: rgb(182, 182, 182);
+    margin: 25px;
+}
+
+li{
+    width: 20vw;
+    
+}
+
+#pesquisa{
+    width: 15vw;
+    margin: 10px;
+    text-align: center;
+    background-color: gray;
+}
+
+input::placeholder{
+    color: white;
+}
+
+#link{
+    color: black;
+}
